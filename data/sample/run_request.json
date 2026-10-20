@@ -1,0 +1,17 @@
+{
+  "brief": {
+    "client_name": "NovaCart",
+    "industry": "E-commerce",
+    "request": "Prepare a quarterly growth review that explains revenue drivers, customer experience risks, and recommended next steps.",
+    "meeting_transcript": "The client wants to know whether mobile growth is sustainable and whether delivery delays are hurting customer satisfaction.",
+    "email_context": "The VP of Growth asked for a report that can be shared with the CEO and commercial leadership team.",
+    "client_history": "NovaCart has previously focused on acquisition growth, but now wants more balanced growth across retention, profitability, and experience."
+  },
+  "company_context": {
+    "product_positioning": "InsightOS helps client-facing growth teams convert messy client context, operational data, and RAG knowledge into decision-ready commercial intelligence.",
+    "standard_presentation_notes": "Start with the executive decision, show only decision-supporting charts, separate evidence from assumptions, and close with prioritized next steps.",
+    "sales_playbook_notes": "Position PM as narrative owner, BA as business-to-data translator, and DA as SQL/Python execution layer where raw data remains protected."
+  },
+  "artifact_ids": [],
+  "max_iterations": 3
+}

@@ -1,0 +1,27 @@
+# Intentionally unpinned so fresh installs resolve the latest compatible releases.
+# For production, lock these with pip-tools/uv after validation.
+fastapi[standard]
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-dotenv
+httpx
+langgraph
+langchain
+langchain-core
+langchain-openai
+langchain-community
+langchain-chroma
+langchain-text-splitters
+chromadb
+pandas
+numpy
+matplotlib
+openpyxl
+pypdf
+docx2txt
+python-multipart
+orjson
+streamlit
+plotly
+requests

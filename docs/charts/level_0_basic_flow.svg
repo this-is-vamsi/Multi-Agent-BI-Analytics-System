@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760" role="img" aria-labelledby="title desc">
+  <title id="title">Level 0 Multi-Agent Architecture Flow</title>
+  <desc id="desc">A simple flow showing client input moving through PM, BA, and Data Visualizer agents to produce a client report.</desc>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#475569"/>
+    </marker>
+    <marker id="arrowhead-soft" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#94a3b8"/>
+    </marker>
+    <style>
+      .bg { fill: #f8fafc; }
+      .eyebrow { font: 600 18px Arial, sans-serif; fill: #2563eb; letter-spacing: 0; }
+      .heading { font: 700 34px Arial, sans-serif; fill: #0f172a; letter-spacing: 0; }
+      .subheading { font: 400 17px Arial, sans-serif; fill: #475569; letter-spacing: 0; }
+      .title { font: 700 20px Arial, sans-serif; fill: #111827; letter-spacing: 0; }
+      .subtitle { font: 400 15px Arial, sans-serif; fill: #475569; letter-spacing: 0; }
+      .arrow { stroke: #475569; stroke-width: 2.5; stroke-linecap: round; }
+      .feedback { fill: none; stroke: #94a3b8; stroke-width: 2.5; stroke-dasharray: 7 7; stroke-linecap: round; }
+      .arrow-label { font: 600 14px Arial, sans-serif; fill: #64748b; letter-spacing: 0; }
+      .note-title { font: 700 18px Arial, sans-serif; fill: #0f172a; letter-spacing: 0; }
+      .note { font: 400 15px Arial, sans-serif; fill: #475569; letter-spacing: 0; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1440" height="760"/>
+  <text x="72" y="78" class="eyebrow">Level 0 Architecture</text>
+  <text x="72" y="122" class="heading">Multi-Agent Client Report Flow</text>
+  <text x="72" y="156" class="subheading">A stakeholder-friendly view of how client input becomes a polished, data-backed report.</text>
+
+  <line x1="290" y1="340" x2="350" y2="340" class="arrow" marker-end="url(#arrowhead)"/>
+  <line x1="570" y1="340" x2="640" y2="340" class="arrow" marker-end="url(#arrowhead)"/>
+  <line x1="860" y1="340" x2="930" y2="340" class="arrow" marker-end="url(#arrowhead)"/>
+  <line x1="1150" y1="340" x2="1210" y2="340" class="arrow" marker-end="url(#arrowhead)"/>
+  <path d="M1040 432 C1040 520 760 520 750 432" class="feedback" marker-end="url(#arrowhead-soft)"/>
+  <text x="895" y="558" text-anchor="middle" class="arrow-label">Insight refinement loop</text>
+  <path d="M750 252 C760 170 1040 170 1040 252" class="feedback" marker-end="url(#arrowhead-soft)"/>
+  <text x="895" y="156" text-anchor="middle" class="arrow-label">Analysis request and chart updates</text>
+
+  <g class="node">
+    <rect x="80" y="270" width="210" height="140" rx="12" fill="#ffffff" stroke="#d8dee8" stroke-width="2"/>
+    <rect x="80" y="270" width="210" height="8" rx="4" fill="#2563eb"/>
+    <text x="185.0" y="314" text-anchor="middle" class="title">Client Input</text>
+    <text x="185.0" y="348" text-anchor="middle" class="subtitle">Brief text and optional files</text>
+  </g>
+  <g class="node">
+    <rect x="350" y="270" width="220" height="140" rx="12" fill="#ffffff" stroke="#d8dee8" stroke-width="2"/>
+    <rect x="350" y="270" width="220" height="8" rx="4" fill="#0891b2"/>
+    <text x="460.0" y="314" text-anchor="middle" class="title">Product Manager Agent</text>
+    <text x="460.0" y="348" text-anchor="middle" class="subtitle">Understands client goal and</text>
+    <text x="460.0" y="368" text-anchor="middle" class="subtitle">frames the requirement</text>
+  </g>
+  <g class="node">
+    <rect x="640" y="270" width="220" height="140" rx="12" fill="#ffffff" stroke="#d8dee8" stroke-width="2"/>
+    <rect x="640" y="270" width="220" height="8" rx="4" fill="#16a34a"/>
+    <text x="750.0" y="314" text-anchor="middle" class="title">Business Analyst Agent</text>
+    <text x="750.0" y="348" text-anchor="middle" class="subtitle">Connects business questions to</text>
+    <text x="750.0" y="368" text-anchor="middle" class="subtitle">data-backed insights</text>
+  </g>
+  <g class="node">
+    <rect x="930" y="270" width="220" height="140" rx="12" fill="#ffffff" stroke="#d8dee8" stroke-width="2"/>
+    <rect x="930" y="270" width="220" height="8" rx="4" fill="#f59e0b"/>
+    <text x="1040.0" y="314" text-anchor="middle" class="title">Data Visualizer Agent</text>
+    <text x="1040.0" y="348" text-anchor="middle" class="subtitle">Calculates numbers and</text>
+    <text x="1040.0" y="368" text-anchor="middle" class="subtitle">prepares charts</text>
+  </g>
+  <g class="node">
+    <rect x="1210" y="270" width="170" height="140" rx="12" fill="#ffffff" stroke="#d8dee8" stroke-width="2"/>
+    <rect x="1210" y="270" width="170" height="8" rx="4" fill="#7c3aed"/>
+    <text x="1295.0" y="314" text-anchor="middle" class="title">Client Report</text>
+    <text x="1295.0" y="348" text-anchor="middle" class="subtitle">Clear recommendations with</text>
+    <text x="1295.0" y="368" text-anchor="middle" class="subtitle">charts and next steps</text>
+  </g>
+
+  <g>
+    <rect x="80" y="615" width="1300" height="82" rx="12" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="112" y="652" class="note-title">Simple promise</text>
+    <text x="112" y="679" class="note">The client gives context once. The agents collaborate behind the scenes. The final output is a clear report with business meaning, evidence, charts, and next steps.</text>
+  </g>
+</svg>

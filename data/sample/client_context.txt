@@ -1,0 +1,38 @@
+Client: NovaCart
+Industry: E-commerce marketplace
+Primary users: CEO, VP Growth, Head of Category, Customer Experience Lead
+
+Client business context:
+NovaCart sells fashion, beauty, grocery, home, and electronics products across web, mobile, and marketplace channels. The company has grown quickly through acquisition-led campaigns, but leadership now wants more balanced growth across revenue quality, retention, fulfilment reliability, and category profitability.
+
+Strategic priorities for this quarter:
+- Identify which categories and channels are driving quality revenue.
+- Separate high-revenue categories from categories creating service risk.
+- Understand whether discounting is creating sustainable demand or masking weak conversion.
+- Assess whether delivery delays and returns are harming customer experience.
+- Build a concise CEO-ready narrative for the quarterly growth review.
+
+Known client concerns from meetings:
+- Electronics produces strong revenue but appears to have higher delivery delays and return risk.
+- Mobile is growing, especially with loyal customers, but leadership wants confidence that this is not driven only by discounting.
+- Grocery has frequent orders and high ratings, but lower order value.
+- Fashion responds to discounts, but the team wants to understand whether it is margin-accretive.
+- Leadership wants a board-style report, not a raw analytics dump.
+
+Company product positioning:
+InsightOS helps client-facing growth, product, and analytics teams convert messy context and operational data into decision-ready commercial intelligence. The platform combines agentic analysis, RAG over client knowledge, SQL/Python data analysis, chart generation, and executive report synthesis.
+
+Standard product presentation guidance:
+- Start with the client decision, not with the dataset.
+- Use charts only when they support a recommendation.
+- Label assumptions separately from evidence.
+- Do not expose raw tables to LLM-facing agents.
+- Show the DA-produced chart artifacts and SQL evidence in the appendix.
+- End with prioritized actions, owners, and measurable next steps.
+
+Sales and PM playbook:
+- Position PM Agent as the client narrative owner.
+- Position BA Agent as the business-to-data translator.
+- Position DA Agent as the SQL/Python execution layer.
+- Emphasize that raw tabular data remains inside deterministic analysis tooling.
+- Show traceability from client question to SQL/Python output to final recommendation.
